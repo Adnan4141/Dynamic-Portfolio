@@ -1,0 +1,9 @@
+   <Link
+              activeClass="active"
+              to={navlink.link}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >
+              {navlink.title}
