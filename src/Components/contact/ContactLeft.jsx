@@ -20,13 +20,13 @@ const ContactLeft = () => {
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+880 1883671140</span>
+          Phone: <span className="text-lightText">+880 1*********6</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">Adnanh4141@gmail.com</span>
         </p>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 ">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
