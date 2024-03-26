@@ -1,5 +1,5 @@
 import { FaBars } from "react-icons/fa";
-import { logo } from "../../assets/index";
+import { Adnan,  logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import { useState } from "react";
 import { Link } from "react-scroll";
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 px-4 lg:px-10 sticky  top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 ">
       <div>
-        <img src={logo} alt="" />
+        <img className="w-16 rounded-full outline-lime-50 border-[2px]" src={Adnan} alt="" />
       </div>
 
       <div>
@@ -52,7 +52,7 @@ const Navbar = () => {
            <div className="flex justify-between">
 
            <div>
-              <img src={logo} alt="" />
+           <img className="w-16 rounded-full outline-lime-50 border-[2px]" src={Adnan} alt="" />
             </div>
 
             <div onClick={()=>setShowMenu(false)} className="mt-5 cursor-pointer">
@@ -63,9 +63,7 @@ const Navbar = () => {
            </div>
 
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-              soluta perspiciatis molestias enim cum repellat, magnam
-              exercitationem distinctio aliquid nam.
+            I’m a modern full-stack web developer (MERN) with 2+ years of IT experience designing and developing solid, reliable, responsive and scalable software solutions in the MERN stack. My goal is to provide you clean, organized and professional project.
             </p>
 
             <ul className="flex flex-col  items-start gap-5">

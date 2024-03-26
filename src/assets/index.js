@@ -7,6 +7,8 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
+import Adnan from "./images/Adnan455.jpg";
+import AdnanBanner from "./images/AdnanNoBg.jpg.png";
 
 export {
   logo,
@@ -18,4 +20,8 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  Adnan,
+  AdnanBanner,
+  
 };
+
